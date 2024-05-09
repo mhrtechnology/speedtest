@@ -34,7 +34,7 @@ function formatSpeedtestData($speedtest)
     $speedtest['ul'] = format($speedtest['ul']);
     $speedtest['ping'] = format($speedtest['ping']);
     $speedtest['jitter'] = format($speedtest['jitter']);
-    $speedtest['timestamp'] = $speedtest['timestamp'];
+    $speedtest['timestamp'] = format($speedtest['timestamp']);
 
     $ispinfo = json_decode($speedtest['ispinfo'], true)['processedString'];
     $dash = strpos($ispinfo, '-');

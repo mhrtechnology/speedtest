@@ -1,3 +1,7 @@
 results/idObfuscation_salt.php
-backend/getIP_serverLocation.php
+backend
 db-dir/
+*.code-workspace
+.vscode/sftp.json
+fiveserver.config.js
+.php_tmp
