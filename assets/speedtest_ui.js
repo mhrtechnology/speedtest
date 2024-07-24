@@ -5,7 +5,7 @@ function I(i) {
 var SPEEDTEST_SERVERS = [
 	{
 		name: 'MHR TECHNOLOGY - Kuala Selangor, MY',
-		server: '//speed.mhrtech.my/',
+		server: '//speed.mhrtech.my',
 		dlURL: 'backend/garbage.php',
 		ulURL: 'backend/empty.php',
 		pingURL: 'backend/empty.php',
@@ -13,7 +13,7 @@ var SPEEDTEST_SERVERS = [
 	},
 	{
 		name: 'RoIPMARS Network - Johor Bahru, MY',
-		server: '//speed.roipmars.org.my/',
+		server: '//speed.roipmars.org.my',
 		dlURL: 'backend/garbage.php',
 		ulURL: 'backend/empty.php',
 		pingURL: 'backend/empty.php',
@@ -21,7 +21,7 @@ var SPEEDTEST_SERVERS = [
 	},
 	{
 		name: 'WORLD SUCCESS STYLE - Cyberjaya, MY',
-		server: '//worldsuccesstyle.com.my/speed/',
+		server: '//worldsuccesstyle.com.my/speed',
 		dlURL: 'backend/garbage.php',
 		ulURL: 'backend/empty.php',
 		pingURL: 'backend/empty.php',
